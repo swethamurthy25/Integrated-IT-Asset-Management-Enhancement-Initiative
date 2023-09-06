@@ -12,25 +12,8 @@ According to the recent audit report, IniTech Solutions is experiencing a proble
 
 To resolve IniTech Solutions' crisis, it would be best to create a system where a database of asset information is stored and updated in real-time and can be viewed in an asset portal, on whose dashboard users can submit requests for assets that have already been allocated or request for a new asset, as recommended by IT auditors.
 
-## Process Map
 
-### Serialized asset tracking 	 
-
-![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/369d9eb6-3dc8-4d2c-b56c-8725e865cd5d)
-
-### Stockroom Management
-
-![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/18cc1c78-7b01-46b4-97ee-803ee4c685ec)
-
-### ITAM Process
-
-![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/f9e75f4a-dc0f-421f-b9ea-fc73d02696f1)
-
-### Security Process
-
-![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/435b2902-40f4-4979-b6a5-7e9cb5c1e5d2)
-
-## High Level Process Design
+## High-Level Process Design
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/395f04ed-7855-4b00-b392-5490dadaf1ce)
 
@@ -71,4 +54,30 @@ The asset entity includes attributes like Asset_ID, Asset_Status, Stockroom_ID ,
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/3d22d78a-3edc-404f-9c20-fe4f78b4c304)
 
 
-## 
+## Business Functions
+
+### Business Function 1 - Serialized Asset Tracking
+
+A computerized asset management system can help with asset management, maintenance operations simplification, and project administration and planning. A centralized software solution that connects with existing systems to aggregate data collection from physical assets regardless of make, model, or manufacturer into one place. It also helps businesses expedite asset management and decrease human error. Additionally, businesses will gain complete asset visibility including location, status, and usage history, using a single web-based dashboard that enables for quick search and tag filtering.
+
+![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/ca47e5d4-ca52-489d-8440-75e8bb33e40d)
+
+### Business Function 2 - Stockroom Management
+
+A serialized asset can be stored in a unique storage location defined by a building and room. An effective inventory management approach results in a well-organized stockroom management center. A well-organized warehouse improves the efficiency of present and future fulfillment strategies. This includes cost savings and improved product quality for companies that employ warehouses to manage inventories.
+
+![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/34c57a9a-c9ea-4071-b228-6ec7288732dd)
+
+### Business Function 3 - ITAM Process
+
+The request and fulfillment process is a management procedure that touches every other function since it requires data updates in the central repository once the request is reviewed by another team. Stakeholders have five primary functions.
+
+![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/7b5792d6-776e-4d20-b4b0-126dc4f4d2b5)
+
+### Business Function 4 - Security Process
+
+The goal of security management is to maintain high-level security in every function and separate the access of functions to various roles based on the stakeholder level of authority. This is done to ensure that the underlying sensitive data is kept as secure as possible.
+
+![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/1b70827e-54ec-4c27-878e-6e76e4929430)
+
+
