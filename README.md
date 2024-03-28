@@ -95,60 +95,85 @@ The goal of security management is to maintain high-level security in every func
 
 
 #### WireFrame 2 - Asset Tracking Dashboard 
-The asset tracking dashboard is a visual representation of the overall information in the serialized asset tracking process. The quantity of assets reflects the entire number of assets accessible for usage, whereas the purchase in the fiscal year shows the total amount spent on the asset in that year. The asset value for each day has been charted. In addition to this, the dashboard features feed sections that include the asset tag id and the asset's due date.
+* The asset tracking dashboard is a visual representation of the overall information in the serialized asset tracking process.
+* The quantity of assets reflects the entire number of assets accessible for usage, whereas the purchase in the fiscal year shows the total amount spent on the asset in 
+  that year.
+* The asset value for each day has been charted.
+* In addition to this, the dashboard features feed sections that include the asset tag ID and the asset's due date.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/20e4bd40-f149-4049-8635-e8f86e1dc10a)
 
 
-### WireFrame 3 - Stockroom Management
-
-The stock room management webpage has been designed to assist the user in gaining access to the stockrooms. Each stockroom is assigned unique identifiers. To have the access approved, users have to provide inputs such as unique identifier details, room number, building number, address, and security control options on the webpage. The security control options will be validated and if the physical key matches, the access will be approved. Once the access is approved, the user can be able to access the stockroom.  On the other hand, the access will be refused if the unique identifier information is inaccurate, or the physical key is not matched. In that case, the user has to contact the stockroom manager responsible for that particular stockroom in order to gain access.
+#### WireFrame 3 - Stockroom Management
+* The stock room management webpage has been designed to assist the user in gaining access to the stockrooms.
+* Each stockroom is assigned unique identifiers.
+* To have the access approved, users have to provide inputs such as unique identifier details, room number, building number, address, and security control options on the 
+  webpage.
+* The security control options will be validated and if the physical key matches, the access will be approved. Once the access is approved, the user can be able to access 
+  the stockroom.
+* On the other hand, the access will be refused if the unique identifier information is inaccurate, or the physical key is not matched.
+* In that case, the user has to contact the stockroom manager responsible for that particular stockroom to gain access.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/8961157a-dc3c-41fa-8487-6cd7e467f0a7)
 
 
-### WireFrame 4 - ITAM Process - Asset Entry
-
-All five processes in the ITAM process – asset entry, asset request, fulfillment process, support process, and asset retirement process have their own user interface. The asset entry user interface is used to enter asset data into the repository. The user must provide inputs such as the asset ID, asset name, asset model, asset location, and the details of the person to whom the asset is assigned. After providing all the required information, the user must select the update repository option to save the asset information to the repository, and this process should be repeated whenever the asset status or asset condition changes.
+#### WireFrame 4 - ITAM Process - Asset Entry
+* All five processes in the ITAM process – asset entry, asset request, fulfillment process, support process, and asset retirement process have their user interface.
+* The asset entry user interface is used to enter asset data into the repository.
+* The user must provide inputs such as the asset ID, asset name, asset model, asset location, and the details of the person to whom the asset is assigned.
+* After providing all the required information, the user must select the update repository option to save the asset information to the repository, and this process should 
+  be repeated whenever the asset status or asset condition changes.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/acab8f16-58ea-446a-8206-0c7a290e51c0)
 
 
-### Wireframe 5: ITAM Process - Asset Request
-
-Employees will be able to submit a request to install equipment from a stock room via the request process. They can utilize the asset request user interface for this purpose. The employee must provide input data such as employee ID, employee name, project name, and preferred asset type (for example HP in our case). The details will be retrieved from the repository that matches the employee’s selection criteria, and a message will be displayed indicating whether he can proceed with the request. Then the user can proceed to submit the new request by clicking the submit request button. These access requests will be handled by the fulfillment team.
+#### Wireframe 5: ITAM Process - Asset Request
+*Employees will be able to submit a request to install equipment from a stock room via the request process.
+* They can utilize the asset request user interface for this purpose. 
+* The employee must provide input data such as employee ID, employee name, project name, and preferred asset type (for example HP in our case).
+* The details will be retrieved from the repository that matches the employee’s selection criteria, and a message will be displayed indicating whether he can proceed with 
+  the request.
+* Then the user can proceed to submit the new request by clicking the submit request button.
+* These access requests will be handled by the fulfillment team.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/12cd187d-a98c-42c9-82b2-e82920d6fdc6)
 
-### Wireframe 6: ITAM Process – Asset Fulfillment Request
-
-The technicians will be able to handle the asset request via the asset fulfillment user interface. This user interface will display the overall number of tickets (requests) to handle, as well as the open, pending, on-hold, and closed requests. The technician can view the request details by clicking on the request number, and he also has the authority to verify the asset status prior to processing the request. If the request fails to pass the asset status validation check, the user interface provides the option to deny the request.
+#### Wireframe 6: ITAM Process – Asset Fulfillment Request
+* The technicians will be able to handle the asset request via the asset fulfillment user interface.
+* This user interface will display the overall number of tickets (requests) to handle, as well as the open, pending, on-hold, and closed requests.
+* The technician can view the request details by clicking on the request number, and he also has the authority to verify the asset status before processing the request.
+* If the request fails to pass the asset status validation check, the user interface provides the option to deny the request.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/350da43f-afe5-4686-93c4-c107c3c870b6)
 
 
-### Wireframe 7: ITAM Process – Support
-
-The employee can submit the service requests for the support services like installation of software, replacement of hard drives or system refresh, through the user interface built for the support process. In the support user interface, the user must enter the employee ID, asset id, and phone number as input, and select asset status and issue/services from the dropdown menu. The user interface additionally includes a text area for describing the issue (add note section).
+#### Wireframe 7: ITAM Process – Support
+* The employee can submit the service requests for the support services like installation of software, replacement of hard drives or system refresh, through the user interface built for the support process.
+* In the support user interface, the user must enter the employee ID, asset ID, and phone number as input, and select asset status and issue/services from the dropdown menu.
+* The user interface additionally includes a text area for describing the issue (add note section).
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/06e846f9-5ab3-4671-be0f-a8113cdbf003)
 
-### Wireframe 8: ITAM Process – Asset Retirement
-
-The asset retirement user interface assists the technician in the asset disposal maintenance When submitting the request, the user must include information such as the asset identification number, location of the asset, model name, asset owner data, asset status (disposal, retired, lost, damaged, or stolen), and asset submission date. Upon submitting the details, a notification is sent to the delivery team for asset collection along with the asset status,  and the details are updated in the repository.
+#### Wireframe 8: ITAM Process – Asset Retirement
+* The asset retirement user interface assists the technician in asset disposal maintenance.
+* When submitting the request, the user must include information such as the asset identification number, location of the asset, model name, asset owner data, asset status 
+  (disposal, retired, lost, damaged, or stolen), and asset submission date.
+* Upon submitting the details, a notification is sent to the delivery team for asset collection along with the asset status,and the details are updated in the repository.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/c2ab54a9-98f9-4d05-bd17-1b4caa748f3f)
 
-
-### Wireframe 9: ITAM Process Dashboard
-
-The various phases of the ITAM process have been displayed in a single dashboard. The asset entry pie chart depicts the total volume of asset types such as desktops, laptops, monitors, and servers. The asset request pie chart depicts the status and number of requests from different categories. In addition to that, the dashboard includes the week-wise fulfillment status in the form of a graph. The numbers of retired assets for the years 2020 and 2021 can also be viewed, along with the number of support requests resolved.
+#### Wireframe 9: ITAM Process Dashboard
+* The various phases of the ITAM process have been displayed in a single dashboard.
+* The asset entry pie chart depicts the total volume of asset types such as desktops, laptops, monitors, and servers.
+* The asset request pie chart depicts the status and number of requests from different categories.
+* In addition to that, the dashboard includes the week-wise fulfillment status in the form of a graph.
+* The numbers of retired assets for the years 2020 and 2021 can also be viewed, along with the number of support requests resolved.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/8527c452-a786-49e3-a8bc-0a091c157adc)
 
 
 
-## References:
+### $\textcolor{red}{References}$
 
 Tilley, S. R. (2020). Systems analysis and design. Cengage.
 
