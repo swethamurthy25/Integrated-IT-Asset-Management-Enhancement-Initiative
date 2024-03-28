@@ -1,11 +1,10 @@
-# Integrated-IT-Asset-Management-Enhancement-Initiative
+## $\textcolor{red}{Case\ Study\ on\ Integrated\ IT\ Asset\ Management\ Enhancement\ Initiatives}$
 
-## Project Description:
+### $\textcolor{red}{Project\ Description}$
 
 The "Integrated IT Asset Management Enhancement Initiative" serves as a pivotal endeavor within the organization's digital transformation and cost optimization strategy. This project is dedicated to elevating IT Asset Management (ITAM) to a state of meticulous precision, ensuring the tracking and reporting of asset value and ownership throughout their entire lifecycle. While substantial progress was achieved in the previous fiscal year, with the definition and implementation of IT asset procurement processes and standards, the upcoming phase is committed to addressing the Deploy, Service, and Retire stages of the IT Asset Management lifecycle.
 
-## Problem Statement
-
+### $\textcolor{red}{Problem\ Statement\ and\ Challenges}$
 According to the recent audit report, IniTech Solutions is experiencing a problem with the present techniques for managing asset data which includes data duplication and mismanagement, visualization issues, and decentralized data models.
 
 ## Technology Solution
