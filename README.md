@@ -1,34 +1,30 @@
 ## $\textcolor{red}{Case\ Study\ on\ Integrated\ IT\ Asset\ Management\ Enhancement\ Initiatives}$
 
 ### $\textcolor{red}{Project\ Description}$
-
 The "Integrated IT Asset Management Enhancement Initiative" serves as a pivotal endeavor within the organization's digital transformation and cost optimization strategy. This project is dedicated to elevating IT Asset Management (ITAM) to a state of meticulous precision, ensuring the tracking and reporting of asset value and ownership throughout their entire lifecycle. While substantial progress was achieved in the previous fiscal year, with the definition and implementation of IT asset procurement processes and standards, the upcoming phase is committed to addressing the Deploy, Service, and Retire stages of the IT Asset Management lifecycle.
 
 ### $\textcolor{red}{Problem\ Statement\ and\ Challenges}$
 According to the recent audit report, IniTech Solutions is experiencing a problem with the present techniques for managing asset data which includes data duplication and mismanagement, visualization issues, and decentralized data models.
 
-## Technology Solution
+### $\textcolor{red}{Recommended\ Solution}$
+To address the challenges faced by IniTech Solutions, the optimal solution involves developing a system that maintains a database of asset details, ensuring real-time updates. This system should include an asset portal with a dashboard, allowing users to both view allocated assets and submit requests for new ones, as advised by IT auditors.
 
-To resolve IniTech Solutions' crisis, it would be best to create a system where a database of asset information is stored and updated in real-time and can be viewed in an asset portal, on whose dashboard users can submit requests for assets that have already been allocated or request for a new asset, as recommended by IT auditors.
-
-
-## High-Level Process Design
+### $\textcolor{red}{High\ Level\ Process\ Design}$
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/395f04ed-7855-4b00-b392-5490dadaf1ce)
 
-
-## Network Topology (Infrastructure Architecture)
+### $\textcolor{red}{Network\ Topology\ (Infrastructure\ Diagram)}$
 
 The network topology of the Initech system is divided into three layers: the presentation layer, the business layer, and the database layer. The presentation layer ensures that the communications it receives are formatted appropriately for the recipient application. In addition, the presentation layer serves as the user's and workers' first point of contact when they use the online application. It consists of desktop computers, laptop computers, and mobile devices that customers utilize to access the application. 
 
-The proxy server is then used to perform two-factor authentication when a user or employee attempts to access the system. The proxy server acts as a firewall, preventing the attacker from gaining access to the private network. Any data entered by the user via the user interface must pass through the firewall to reach the business and database layers. This is because the firewall acts as the network security device that monitors and filters inbound and outbound network traffic in accordance with an organization's security policies. The organization’s whole network is secured with the help of a firewall.
+The proxy server is then used to perform two-factor authentication when a user or employee attempts to access the system. The proxy server acts as a firewall, preventing the attacker from gaining access to the private network. Any data entered by the user via the user interface must pass through the firewall to reach the business and database layers. This is because the firewall acts as the network security device that monitors and filters inbound and outbound network traffic by an organization's security policies. The organization’s whole network is secured with the help of a firewall.
 
 The data that successfully gets through the firewall will be routed to the business logic layer which contains web servers in it. The Business Logic Layer manages the business rules, calculations, and logic that determines how an application should function. Here we have two web servers for stockroom management and asset management where the actual process of stockroom inventory management and the serialized asset tracking process happens. The database layer contains the repositories that encapsulate the logic required to access data sources. They centralize common data access functionality, providing better maintainability and decoupling the infrastructure or technology used to access databases from the domain model layer. Initech Solutions has a centralized data repository where we can store the most up-to-date information on asset records, stockroom management data, and so on.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/0dca7555-ecde-41bb-8cb2-6ca0dce10462)
 
 
-## Entity Relationship Diagram
+### $\textcolor{red}{Data\ Modelling\ with\ ER\ Diagram}$
 
 The ER Diagram has six entities: 
 
@@ -53,39 +49,39 @@ The asset entity includes attributes like Asset_ID, Asset_Status, Stockroom_ID ,
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/3d22d78a-3edc-404f-9c20-fe4f78b4c304)
 
 
-## Business Functions
+### $\textcolor{red}{Business\ Functions}$
 
-### Business Function 1 - Serialized Asset Tracking
-
-A computerized asset management system can help with asset management, maintenance operations simplification, and project administration and planning. A centralized software solution that connects with existing systems to aggregate data collection from physical assets regardless of make, model, or manufacturer into one place. It also helps businesses expedite asset management and decrease human error. Additionally, businesses will gain complete asset visibility including location, status, and usage history, using a single web-based dashboard that enables for quick search and tag filtering.
+#### Business Function 1 - Serialized Asset Tracking
+A computerized asset management system can help with asset management, maintenance operations simplification, and project administration and planning. A centralized software solution that connects with existing systems to aggregate data collection from physical assets regardless of make, model, or manufacturer into one place. It also helps businesses expedite asset management and decrease human error. Additionally, businesses will gain complete asset visibility including location, status, and usage history, using a single web-based dashboard that enables quick search and tag filtering.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/ca47e5d4-ca52-489d-8440-75e8bb33e40d)
 
-### Business Function 2 - Stockroom Management
-
+#### Business Function 2 - Stockroom Management
 A serialized asset can be stored in a unique storage location defined by a building and room. An effective inventory management approach results in a well-organized stockroom management center. A well-organized warehouse improves the efficiency of present and future fulfillment strategies. This includes cost savings and improved product quality for companies that employ warehouses to manage inventories.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/34c57a9a-c9ea-4071-b228-6ec7288732dd)
 
-### Business Function 3 - ITAM Process
-
+#### Business Function 3 - ITAM Process
 The request and fulfillment process is a management procedure that touches every other function since it requires data updates in the central repository once the request is reviewed by another team. Stakeholders have five primary functions.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/7b5792d6-776e-4d20-b4b0-126dc4f4d2b5)
 
-### Business Function 4 - Security Process
-
+#### Business Function 4 - Security Process
 The goal of security management is to maintain high-level security in every function and separate the access of functions to various roles based on the stakeholder level of authority. This is done to ensure that the underlying sensitive data is kept as secure as possible.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/1b70827e-54ec-4c27-878e-6e76e4929430)
 
-____________________________________________________________________________________________________________________________________________________________________
 
-## User Interface Design
+### $\textcolor{red}{User\ Interface\ Design}$
 
-### WireFrame 1 - Desktop-based GUI for Asset Management System (Security Process)
-
-First and foremost, when a client or an Initech employee attempts to log in to the company's website, they must choose their logging-in option via the user login page. Then, for a safe and secure login, a login page with two-factor authentication is developed. To use Initech Solutions' services, every user must first create an account on InitechSolutions.com. Employees of Initech will be registered for the same. Following the completion of the registration process, the user will be directed to the login page. Upon successful login with a user ID and password, the user will be directed to the authentication page, where they will receive a unique code or OTP on their mobile phones, which must be entered on the authentication page. Then the user will be able to visit the homepage of Initech Solutions after successfully logging in. From the home page, the user can navigate to the required sections (asset tracking, stockroom management, ITAM process, security).
+#### WireFrame 1 - Desktop-based GUI for Asset Management System (Security Process)
+* First and foremost, when a client or an Initech employee attempts to log in to the company's website, they must choose their logging-in option via the user login page. * Then, for a safe and secure login, a login page with two-factor authentication is developed.
+* To use Initech Solutions' services, every user must first create an account on InitechSolutions.com. Employees of Initech will be registered for the same.
+* Following the completion of the registration process, the user will be directed to the login page.
+* Upon successful login with a user ID and password, the user will be directed to the authentication page, where they will receive a unique code or OTP on their mobile 
+  phones, which must be entered on the authentication page.
+* Then the user will be able to visit the homepage of Initech Solutions after successfully logging in.
+* From the home page, the user can navigate to the required sections (asset tracking, stockroom management, ITAM process, security).
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/1c9f5b6a-e55a-405e-b095-3e45c29728e3)
 
@@ -98,8 +94,7 @@ First and foremost, when a client or an Initech employee attempts to log in to t
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/2ca85349-c5ed-4894-808a-f785c4dfe1b3)
 
 
-### WireFrame 2 - Asset Tracking Dashboard 
-
+#### WireFrame 2 - Asset Tracking Dashboard 
 The asset tracking dashboard is a visual representation of the overall information in the serialized asset tracking process. The quantity of assets reflects the entire number of assets accessible for usage, whereas the purchase in the fiscal year shows the total amount spent on the asset in that year. The asset value for each day has been charted. In addition to this, the dashboard features feed sections that include the asset tag id and the asset's due date.
 
 ![image](https://github.com/swethamurthy25/Integrated-IT-Asset-Management-Enhancement-Initiative/assets/112581595/20e4bd40-f149-4049-8635-e8f86e1dc10a)
